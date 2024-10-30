@@ -1,0 +1,10 @@
+[INFO ] 2024-10-01 17:26:23.929 [main] BaseTest - Set up driver
+[FATAL] 2024-10-01 17:26:23.932 [main] BaseTest - Fatal Set up driver
+[ERROR] 2024-10-01 17:26:23.932 [main] BaseTest - Error Set up driver
+[INFO ] 2024-10-01 17:26:28.576 [main] BaseTest - Quite driver
+[FATAL] 2024-10-01 17:26:37.159 [main] BaseTest - Fatal Set up driver
+[ERROR] 2024-10-01 17:26:37.162 [main] BaseTest - Error Set up driver
+[INFO ] 2024-10-01 17:28:09.324 [main] BaseTest - Set up driver
+[FATAL] 2024-10-01 17:28:09.327 [main] BaseTest - Fatal Set up driver
+[ERROR] 2024-10-01 17:28:09.327 [main] BaseTest - Error Set up driver
+[INFO ] 2024-10-01 17:28:13.419 [main] BaseTest - Quite driver
