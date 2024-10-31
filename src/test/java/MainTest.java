@@ -9,8 +9,7 @@ public class MainTest {
 //  }
 
   @Test
-  public void main(String... value) {
-    System.out.println("-=-=-=-=-= TEST -=-=-=-=-");
+  public void firstTest() {
   }
 
 }
