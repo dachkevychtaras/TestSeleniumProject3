@@ -1,7 +1,6 @@
 import org.testng.annotations.Test;
-import utils.BaseTest;
 
-public class MainTest extends BaseTest {
+public class MainTest {
 
 //  @DataProvider(name = "testProvider")
 //  public Object[][] testProvider() {
