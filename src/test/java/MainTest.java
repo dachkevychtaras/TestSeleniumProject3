@@ -1,3 +1,4 @@
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 public class MainTest {
@@ -11,6 +12,8 @@ public class MainTest {
   @Test
   public void firstTest() {
     System.out.println(" TEST DONE SUCCESS");
+
+    throw new SkipException("SKIP test");
   }
 
 }
