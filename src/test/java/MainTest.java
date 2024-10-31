@@ -10,6 +10,7 @@ public class MainTest {
 
   @Test
   public void firstTest() {
+    System.out.println(" TEST DONE SUCCESS");
   }
 
 }
