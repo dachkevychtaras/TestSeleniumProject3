@@ -1,0 +1,16 @@
+{
+  "applause:options": {
+    "isW3C": "true",
+    "isStrict": "false",
+    "driverName": "iOS",
+    "driverType": "iOS",
+    "factoryKey": "MOBILE_IOS",
+    "osName": "iOS"
+  },
+  "platformName": "iOS",
+  "platformVersion": "17.4",
+  "deviceName": "iPhone 15 Pro Max",
+  "udid": "A694B9FC-DAEB-4310-9BCF-410909EFE7E6",
+  "app": "/Users/tarasdachkevych/Work/app/_udemy/ios/udemy-Resigned.ipa",
+  "automationName": "XCUITest"
+}
