@@ -1,6 +1,7 @@
 package utils;
 
 import io.appium.java_client.android.AndroidDriver;
+import java.io.File;
 import java.net.URL;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -36,12 +37,14 @@ public class BaseTest {
 
     DesiredCapabilities capabilities = new DesiredCapabilities();
 
+    File file = new File("App.ipa");
+    System.out.println(file.getAbsolutePath());
+
     capabilities.setCapability(CapabilityType.PLATFORM_NAME, "iOS");
     capabilities.setCapability("appium:platformVersion", "18");
 //    capabilities.setCapability("appium:deviceName", "iPhone 12");
     capabilities.setCapability("appium:udid", "00008101-00017D9E2689001E");
-    capabilities.setCapability("appium:app",
-        "/Users/tarasdachkevych/Work/app/old/Aircall.ipa");
+    capabilities.setCapability("appium:app", file.getAbsolutePath());
     capabilities.setCapability("appium:automationName", "XCUITest");
     try {
       driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), capabilities);
